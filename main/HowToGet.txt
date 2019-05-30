@@ -1,0 +1,85 @@
+'https://api.github.com/repos/McUtty/FlowerPlan/releases/latest'
+
+
+import usocket
+import httpcom
+
+http_client = httpcom.HttpClient()
+
+latest_release = http_client.get('https://api.github.com/repos/McUtty/FlowerPlan/releases/latest')
+
+latest_release.close()
+
+
+https://api.github.com/repos/McUtty/FlowerPlan/contents/main?ref=refs/tags/test2
+
+
+
+"node_id": "MDc6UmVsZWFzZTE3NTk0OTQx",
+  "tag_name": "test2",
+  "target_commitish": "master",
+  "name": "",
+  "draft": false,
+  "author": {
+    "login": "McUtty",
+    "id": 14031559,
+    "node_id": "MDQ6VXNlcjE0MDMxNTU5",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/14031559?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/McUtty",
+    "html_url": "https://github.com/McUtty",
+    "followers_url": "https://api.github.com/users/McUtty/followers",
+    "following_url": "https://api.github.com/users/McUtty/following{/other_user}",
+    "gists_url": "https://api.github.com/users/McUtty/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/McUtty/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/McUtty/subscriptions",
+    "organizations_url": "https://api.github.com/users/McUtty/orgs",
+    "repos_url": "https://api.github.com/users/McUtty/repos",
+    "events_url": "https://api.github.com/users/McUtty/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/McUtty/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "prerelease": false,
+  "created_at": "2019-05-26T17:28:59Z",
+  "published_at": "2019-05-26T17:55:58Z",
+  "assets": [
+    {
+      "url": "https://api.github.com/repos/McUtty/FlowerPlan/releases/assets/12877696",
+      "id": 12877696,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDEyODc3Njk2",
+      "name": "test.py",
+      "label": null,
+      "uploader": {
+        "login": "McUtty",
+        "id": 14031559,
+        "node_id": "MDQ6VXNlcjE0MDMxNTU5",
+        "avatar_url": "https://avatars3.githubusercontent.com/u/14031559?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/McUtty",
+        "html_url": "https://github.com/McUtty",
+        "followers_url": "https://api.github.com/users/McUtty/followers",
+        "following_url": "https://api.github.com/users/McUtty/following{/other_user}",
+        "gists_url": "https://api.github.com/users/McUtty/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/McUtty/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/McUtty/subscriptions",
+        "organizations_url": "https://api.github.com/users/McUtty/orgs",
+        "repos_url": "https://api.github.com/users/McUtty/repos",
+        "events_url": "https://api.github.com/users/McUtty/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/McUtty/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "content_type": "text/x-python-script",
+      "state": "uploaded",
+      "size": 25,
+      "download_count": 1,
+      "created_at": "2019-05-26T17:55:53Z",
+      "updated_at": "2019-05-26T17:55:54Z",
+      "browser_download_url": "https://github.com/McUtty/FlowerPlan/releases/download/test2/test.py"
+    }
+  ],
+  "tarball_url": "https://api.github.com/repos/McUtty/FlowerPlan/tarball/test2",
+  "zipball_url": "https://api.github.com/repos/McUtty/FlowerPlan/zipball/test2",
+  "body": ""
+}
